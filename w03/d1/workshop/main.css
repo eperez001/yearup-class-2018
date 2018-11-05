@@ -1,0 +1,25 @@
+#color{
+  background: #40407a;
+height: 800px;
+}
+#next{
+  background: #ff5252;
+  height: 800px;
+}
+img{
+  height: 400px;
+  width: 100%;
+float: left;
+margin: auto;
+}
+#good{
+  background: #aaa69d;
+  height: 800px;
+}
+#bye{
+  background: #ffb142;
+  height: 800px;
+}
+section{
+  display: block;
+}
