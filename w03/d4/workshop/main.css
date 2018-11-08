@@ -1,0 +1,27 @@
+body {
+  color: white;
+  font-family: sans-serif;
+  background-image: linear-gradient(rgba(1, 0, 1, .5), rgba(0, 1, 0, 0.5)), url("paper.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+#gifs {
+  width: 60vh;
+  height: 50vh;
+  display: none;
+}
+
+button {
+  background: black;
+  border: none;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 20px;
+  margin-top: 130px;
+}
