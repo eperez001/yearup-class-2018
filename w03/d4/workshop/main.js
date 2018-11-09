@@ -5,9 +5,9 @@ console.log(gifs);
 
 function randomGifs(){
   let gifsElement = document.getElementById('gifs');
-  if (gifsElement.style.display="none"){
+  // if (gifsElement.style.display="none"){
     gifsElement.style.display="block";
-  }
+// }
   let randomNumber = Math.floor(Math.random() * gifs.length);
 gifsElement.src = gifs[randomNumber].images.original.url;
 }
