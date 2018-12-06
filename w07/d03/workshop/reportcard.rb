@@ -8,7 +8,7 @@ class Reportcard
     if @grades[grade.subject]
       raise "Sorry, you cannot add or change #{subject} because it was already entered."
     end
-    @grades[grade.subject]
+    @grades[grade.subject] = grade
   end
 
   def printCard

@@ -11,7 +11,7 @@ class Classroom
     if @students[student.name]
       raise "Sorry, #{student} is already in here."
     end
-    @students.push(student)
+    @students[student.name]= student
   end
 
   def roster
